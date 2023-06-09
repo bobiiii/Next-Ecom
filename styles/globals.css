@@ -9,3 +9,200 @@
 .primary-button {
   @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400 active:bg-amber-500;
 }
+
+
+
+/* navbar css start */
+.navbackground{
+  background-color: #458500;
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: 700;
+  word-spacing: 1em;
+}
+.abc{
+  color: #FFFFFF;
+}
+
+.btnspace {
+  white-space: nowrap;
+  border-radius: 10px;
+}
+
+
+.bstimg img{
+  
+  height: 40px;
+  background: none;
+} 
+
+.navsection{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #1B6512;
+  gap: 0.2em;
+}
+
+
+.navsectionmain{
+  display: flex;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 5px 7.84px 8px 8px;
+  width: 16.1em;
+  height: 2.5em;
+
+}
+
+/* navbar css start */
+
+
+
+/* Hero Section css start */
+
+.mainhero{
+  display: flex;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
+  width: 692px;
+  height: 48px;
+  background: #FFD529;
+  gap: 1em;
+}
+
+.shopbtn{
+  background: linear-gradient(0deg, #EF6C00 0%, #F38A00 100%);
+  border-radius: 5px;
+  margin-bottom: 1em;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cruveclr{
+  width: 48px;
+  height: 48px;
+  
+  background: linear-gradient(315deg, #468101 50%, #FFD529 50%);
+}
+
+.herolast{
+  padding: 5px;
+  width: 628px;
+  height: 48px;
+  background: #468101;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.hero2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
+  width: 692px;
+  height: 48px;
+  background: #468101;
+  gap: 1em;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .mainhero {
+    display: none;
+  }
+}
+
+
+/* Carousel */
+.carousel-item img{
+  width:1440px ;
+  height:366px;
+} 
+
+.herocards1{
+  width: 220px;
+  height: 50px;
+  left: calc(50% - 200px/2 - 400px);
+  top: 301.98px;
+  text-align: center;
+  background: #FFFFFF;
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: #E0E0E0;
+  box-shadow: 2px 3px 3px rgba(248, 242, 242, 0.24);
+}  
+
+.herocards{
+  display: flex;
+  justify-content: center;
+}
+
+.card1dis{
+  color: #F38A00;
+}
+
+.seeallcard{
+  text-decoration: none;
+}
+
+
+@media (max-width: 450px) {
+  #carouselExampleControls {
+    display: none;
+  }
+  .herocards{
+      display: none;
+  }
+}
+
+
+/* Hero Section css End */
+
+
+/*  speacilsSection css start */
+
+
+.speacilsSection{
+  width: 1343px;
+  height: 405.98px;
+  background: #FAFAFA;
+}
+
+.speacilsSectionWrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.SpecialsTextstyle{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cardscontainer{
+  width: 1370px;
+  height: 344px;
+  left: 15px;
+  top: 62.02px;
+  background: #FAFAFA;
+}
+
+.cardsbody{
+  width: 213.33px;
+  height: 280px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  
+}
+
+/*  speacilsSection css End */
