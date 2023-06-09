@@ -1,1 +1,1 @@
-const ab = 1
+const ab = "hello world"
