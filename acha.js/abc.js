@@ -1,1 +1,1 @@
-abc
+const ab = 1
